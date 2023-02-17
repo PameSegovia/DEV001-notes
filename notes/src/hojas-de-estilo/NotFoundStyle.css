@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+
+.error-container{
+    width: 600px;
+    color: #1b1b32;
+    font-size: 45px;
+    font-family: 'Shadows Into Light', cursive;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 520px;
+   
+    
+}
+.error-route{
+    font-weight: bold;
+    margin-left: 190px;
+
+}
+.error-ruta{
+    width: 350px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.error-Route{
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.link{
+    margin-left: 100px;
+    margin-top: 10px;
+    color:blue;
+
+}

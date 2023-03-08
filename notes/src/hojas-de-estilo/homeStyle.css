@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+  margin :0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  color: white;
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+}
+.contenedorPpal{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contenedorHijo{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-left: 50px;
+}
+.tamaño-img{
+  margin-top: 40px;
+  width: 25%;
+  height: 60%;
+}
+.divForm{
+  align-items: center;
+  margin-top: 10px;
+}
+
+.contenedorPresentación{
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  align-items: start;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.contenedor{
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  margin-left: 40px;
+  
+  
+}
+.contenedorForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  width: 90%;
+  height: 100%;
+  padding: 30px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.divCorreo{
+  margin-top: 20px;
+}
+.btnGoogle{
+  margin-top: 20px;
+  cursor: pointer;
+  
+}

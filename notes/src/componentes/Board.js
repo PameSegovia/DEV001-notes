@@ -23,7 +23,6 @@ export const Board = ({ correoUsuario, completada }) => {
   //Variables de Estado
   const [estadoModal1, cambiarEstadoModal1] = useState(false);
   const [estadoModal2, cambiarEstadoModal2] = useState(false);
-  const [estadoTarea, completarTarea] = useState(!completada)
   const [user, setUser] = useState(valorInicial)
   const [lista, setLista] = useState([])
   const [subId, setSubId] = useState('')

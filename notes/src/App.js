@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import { Route, Routes } from "react-router-dom";
 import {Board} from "./componentes/Board";
 import { Home } from "./componentes/Home";
-import { Register } from "./componentes/Register";
 import { app } from "./firebase/firebase";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 

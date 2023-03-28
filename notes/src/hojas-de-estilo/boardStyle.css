@@ -21,14 +21,32 @@
 .img-header{
   width:5%;
 }
-.btnSalir{
+.divForm{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.btnGuardar{
+  width: 20px;
+  height: 20px;
+  margin-left: 120px;
+  cursor: pointer;
+}
+
+.btnSalir, .btnAgregar {
   width: 40px;
   height: 40px;
   margin-top: 20px;
+  cursor: pointer;
 }
-.titulo{
+.titulo, .texto{
   font-weight: bold;
-  color: red;
+  font-family: 'Courier New', Courier, monospace;
+}
+.nota{
+  width: 100%;
+  padding: 5px;
 }
 .card-body{
   width: 100%;
@@ -37,25 +55,29 @@
 }
 .col-md-4{
   margin-top: 15px;
-  width: 30%;
-  height: 40%;
+  width: 35%;
+  height: 35%;
   background-color: transparent;
   
 }
+.divCalendarioYnotas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .todaslasnotas{
-  width: 40%;
-  height: 40%;
+  width: 25%;
+  height: 35%;
   background-color: #ffffb5;
   margin-bottom: 5px;
   margin-left: 30px;
   border-radius: 5px;
   padding: 5px;
-  
 }
+
 
 .iconosBtns{
   display: flex;
-  justify-content: end;
-  gap: 10px;
+  justify-content:end;
   
 }

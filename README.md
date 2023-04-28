@@ -2,10 +2,10 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Proyecto desplegado](#2-proyecto desplegado)
-* [3. Interfaz Movil First](#3-interfaz Movil First)
-* [4. Interfaz Desktop](#4-interfaz Desktop)
+* [1. Preámbulo]
+* [2. Proyecto desplegado]
+* [3. Interfaz Movil First]
+* [4. Interfaz Desktop]
 
 
 ## 1. Preámbulo

@@ -47,7 +47,7 @@ export function  Home() {
           <img src={notaLogo } className="tamaño-img" alt=""/>
         <div className='contenedorPresentación'>
           <div>
-            <h1> My Notes</h1>
+            <h1 className='h1'> My Notes</h1>
             <p className='presentaciónApp'>Lo que antes anotabas en papel, ahora lo puedes anotar aquí.<br/>Una aplicación sencilla que te sirve para tomar apuntes o crear una lista de tareas.  </p>
             <button className='btn-btn-secondary mt-4 form-control' onClick={() => setRegistro(!registro)}>
               {registro ? 'Ya tienes cuenta? Inicia Sesión' : 'No tienes cuenta? Regístrate'}

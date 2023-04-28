@@ -71,5 +71,54 @@ body{
 .btnGoogle{
   margin-top: 20px;
   cursor: pointer;
-  
+}
+
+/* Estilos para pantallas medianas */
+@media only screen and (max-width: 768px) {
+  .contenedorPpal {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .contenedorHijo {
+    flex-direction: column;
+    width: 90%;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .tamaño-img {
+    margin-top: 20px;
+    width: 50%;
+    height: auto;
+  }
+
+  .contenedorPresentación {
+    margin-left: 0;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .contenedor {
+    width: 80%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .divForm {
+    margin-top: 20px;
+  }
+
+  .btnGoogle {
+    margin-top: 10px;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 480px) {
+  .tamaño-img {
+    width: 70%;
+    margin-top: 10px;
+  }
 }

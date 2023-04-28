@@ -1,4 +1,4 @@
-# Lab Notes
+# Block de Notas
 
 ## Índice
 

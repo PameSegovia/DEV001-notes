@@ -10,7 +10,7 @@
 
 ## 1. Preámbulo
 
-En este proyecto construí s una aplicación para tomar notas. Primero que todo permite crear una cuenta y loguearse. Una vez registrado, permite crear, editar, eliminar y consultar las notas en cualquier momento.
+En este proyecto construí una aplicación para tomar notas. Primero que todo permite crear una cuenta y loguearse. Una vez registrado, permite crear, editar, eliminar y consultar las notas en cualquier momento.
 
 
 
